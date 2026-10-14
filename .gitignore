@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+._*
+
+# Filled event output — regenerate with events/fill.py from event.txt
+events/*/out/
+
+# Session scratch
+_to_delete/
+
+# Build & editor noise
+node_modules/
+*.log
+.vscode/
+.idea/
+__pycache__/
+
+# Built kit — regenerate with logo-usage/build.py
+dist/
+
+# Local working output, not part of the system
+Claude outputs/

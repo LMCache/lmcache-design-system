@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 441.6 108.8" width="442" height="109" role="img" aria-label="LMCache">
+  <title>LMCache</title>
+  <desc>The LMCache command-line banner wordmark, set in figlet standard characters: LM in orange, Cache in teal.</desc>
+  <g>
+    <g font-family="'Geist Mono','IBM Plex Mono',ui-monospace,monospace" font-size="16" font-weight="500" xml:space="preserve" style="white-space:pre" letter-spacing="0">
+      <text x="14.4" y="27.2" fill="#FE8444"> _     __  __ </text>
+      <text x="158.4" y="27.2" fill="#25B0C3">  ____           _          </text>
+      <text x="14.4" y="43.2" fill="#FE8444">| |   |  \/  |</text>
+      <text x="158.4" y="43.2" fill="#25B0C3"> / ___|__ _  ___| |__   ___ </text>
+      <text x="14.4" y="59.2" fill="#FE8444">| |   | |\/| |</text>
+      <text x="158.4" y="59.2" fill="#25B0C3">| |   / _` |/ __| '_ \ / _ \</text>
+      <text x="14.4" y="75.2" fill="#FE8444">| |___| |  | |</text>
+      <text x="158.4" y="75.2" fill="#25B0C3">| |__| (_| | (__| | | |  __/</text>
+      <text x="14.4" y="91.2" fill="#FE8444">|_____|_|  |_|</text>
+      <text x="158.4" y="91.2" fill="#25B0C3"> \____\__,_|\___|_| |_|\___|</text>
+    </g>
+  </g>
+</svg>

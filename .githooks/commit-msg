@@ -1,0 +1,12 @@
+#!/bin/sh
+# Reject AI attribution in commit messages and AI author identities.
+msg="$1"
+if grep -qiE '(co-authored-by:[^\n]*(claude|anthropic|copilot|gpt|gemini|cursor|codex|devin|\[bot\])|claude-session:|generated with \[?(claude|ai)|🤖)' "$msg"; then
+  echo "commit-msg: AI attribution found in message — remove it (see .claude/rules/git-rules.md)." >&2
+  exit 1
+fi
+if git var GIT_AUTHOR_IDENT | grep -qiE '(claude|anthropic|copilot|\bbot\b|noreply@anthropic)'; then
+  echo "commit-msg: AI author identity detected — set user.name/user.email to the human operator." >&2
+  exit 1
+fi
+exit 0

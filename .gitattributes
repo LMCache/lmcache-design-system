@@ -1,0 +1,14 @@
+# Treat design sources as text so diffs are reviewable
+*.svg   text eol=lf diff
+*.css   text eol=lf diff
+*.md    text eol=lf diff
+*.html  text eol=lf diff
+*.py    text eol=lf diff
+*.txt   text eol=lf diff
+
+# Binary assets — never diff or merge these
+*.woff2 binary
+*.ttf   binary
+*.otf   binary
+*.png   binary
+*.pdf   binary

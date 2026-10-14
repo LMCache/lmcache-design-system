@@ -1,0 +1,150 @@
+# Elevate Your LLM Performance — LMCache Hands-on Workshop
+# Samsung, San Jose · Tuesday 6 October 2026
+# Copy of record: supplied by Karsten Wade, 23 September 2026.
+# Supersedes what was read off luma.com/cm7eip1b — that listing had the
+# Samsung session at 16:45, closing at 17:05, and the reception at 17:15.
+#
+# Format: KEY: value. Lines starting with > continue the line above.
+# [section] starts a repeating block; a new record begins on its first field.
+
+KICKER:      LMCache SF Bay Meetup · Workshop
+TITLE_1:     Elevate your
+TITLE_2:     LLM performance
+TITLE_FULL:  Elevate Your LLM Performance: LMCache Hands-on Workshop
+STANDFIRST:  Four hours of hands-on KV cache management.
+
+# The square card's only body copy, three lines. SVG does not wrap, and the
+# widest of these three sets the type size — keep each under ~28 characters.
+# The plus signs are drawn in the gutter; do not type them here.
+BLURB_1:     Hands-on KV cache management
+BLURB_2:     Networking reception
+BLURB_3:     Engineering sessions
+
+DATE:        Tue 6 October 2026
+DAY:         Tuesday
+TIME:        1:30–5:30 PM
+TIMEZONE:    Pacific Time
+VENUE:       Samsung
+CITY:        San Jose, CA
+
+COST:        Free
+COST_NOTE:   Registration required
+QR:          Scan to register
+SLUG:        2026-10-06-samsung-workshop
+REGISTRATION_URL: https://luma.com/cm7eip1b
+CALENDAR_URL:     https://luma.com/cm7eip1b
+
+LEAD:        An interactive four-hour workshop that moves past theory into LMCache itself. Built for
+>            engineers and researchers pushing on KV cache management and LLM efficiency.
+
+BODY:        You will engage directly with experts, explore live deployments, and get hands-on
+>            experience optimizing performance. The shape of the afternoon is deliberate: active
+>            experimentation rather than passive listening, direct access to the technical leaders
+>            working on the project, and a live environment to test against.
+>            The test environment stays open after the session, so what you build during the deep
+>            dive does not stop when the room does. Two networking blocks and a closing reception
+>            are part of the programme rather than appended to it.
+
+# Three value lines — drawn on the square card and the banner
+POINT_1:     Hands-on with the mini-lmcache APIs
+POINT_2:     Engineering sessions from Tensormesh and Samsung
+POINT_3:     Networking throughout, and a reception to close
+
+# Sponsors, in reading order
+SPONSOR_1:   Samsung
+SPONSOR_2:   Tensormesh
+
+# ── Table tent and badge defaults ───────────────────────────────────
+# fill.py writes one tent and one badge from these. For the real stack,
+# copy out/table-tent-a5.svg per session and out/name-badge-4x3in.svg
+# per attendee, and swap the fields.
+SESSION:       Deep dive
+SESSION_TITLE: Research and testing with mini-lmcache
+SPEAKER:       Samuel Shen
+AFFILIATION:   LMCache
+EVENT_SHORT:   LMCache Workshop
+FIRST_NAME:    Karsten
+LAST_NAME:     Wade
+ROLE:          HOST
+
+[agenda]
+AT:            13:30
+CLOCK:         1:30 PM
+SESSION_TITLE: Registration and networking
+SESSION_NOTE:  Setup help on hand. Come early if you want your environment checked.
+SPEAKER:       —
+AFFILIATION:   —
+
+AT:            14:00
+CLOCK:         2:00 PM
+SESSION_TITLE: Host overview
+SESSION_NOTE:  What the afternoon covers and how the hands-on block works.
+SPEAKER:       Karsten Wade
+AFFILIATION:   Tensormesh
+
+AT:            14:10
+CLOCK:         2:10 PM
+SESSION_TITLE: Introduction to LMCache
+SESSION_NOTE:  What the KV cache layer does and where it earns its keep.
+SPEAKER:       To be confirmed
+AFFILIATION:   —
+
+AT:            14:30
+CLOCK:         2:30 PM
+SESSION_TITLE: Coffee break
+SESSION_NOTE:  —
+SPEAKER:       —
+AFFILIATION:   —
+
+AT:            14:45
+CLOCK:         2:45 PM
+SESSION_TITLE: Deep dive — research and testing with mini-lmcache
+SESSION_NOTE:  The mechanics of public server deployment, then hands-on against the API endpoints
+>              to benchmark and optimize KV cache management. The test environment stays open for
+>              your own experimentation after the session.
+SPEAKER:       Samuel Shen
+AFFILIATION:   LMCache
+
+AT:            15:30
+CLOCK:         3:30 PM
+SESSION_TITLE: Networking break
+SESSION_NOTE:  —
+SPEAKER:       —
+AFFILIATION:   —
+
+AT:            16:00
+CLOCK:         4:00 PM
+SESSION_TITLE: Technical session
+SESSION_NOTE:  Engineering context from the commercial side of the project.
+SPEAKER:       To be confirmed
+AFFILIATION:   Tensormesh
+
+AT:            16:30
+CLOCK:         4:30 PM
+SESSION_TITLE: Technical session
+SESSION_NOTE:  Deployment experience at scale.
+SPEAKER:       To be confirmed
+AFFILIATION:   Samsung
+
+AT:            17:00
+CLOCK:         5:00 PM
+SESSION_TITLE: Closing remarks
+SESSION_NOTE:  —
+SPEAKER:       —
+AFFILIATION:   —
+
+AT:            17:05
+CLOCK:         5:05 PM
+SESSION_TITLE: Networking reception
+SESSION_NOTE:  Until adjournment at 5:30 PM.
+SPEAKER:       —
+AFFILIATION:   —
+
+[speakers]
+NAME:  Samuel Shen
+ROLE:  Deep dive — research and testing with mini-lmcache
+BIO:   Leads the hands-on block against the live mini-lmcache environment.
+
+NAME:  Karsten Wade
+ROLE:  Head of Open Source and Community, Tensormesh
+BIO:   Hosts the LMCache SF Bay series.
