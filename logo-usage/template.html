@@ -8,6 +8,9 @@ background:var(--lmc-bg);color:var(--lmc-fg);font:400 16px/1.55 var(--lmc-body);
 body.dark-mode .lmc-logo{--lmc-bg:#001F23;--lmc-card:#013138;--lmc-fg:#FFFFFF;--lmc-head:#FFFFFF;--lmc-sec:#ABCCCF;--lmc-link:#25B0C3;--lmc-link-h:#FE8444;--lmc-border:#1A8C9C;--lmc-soft:#006573;--lmc-ok:#4FBE86;--lmc-no:#F2708F}
 @media (prefers-color-scheme:dark){body:not(.light-mode):not(.dark-mode) .lmc-logo{--lmc-bg:#001F23;--lmc-card:#013138;--lmc-fg:#FFFFFF;--lmc-head:#FFFFFF;--lmc-sec:#ABCCCF;--lmc-link:#25B0C3;--lmc-link-h:#FE8444;--lmc-border:#1A8C9C;--lmc-soft:#006573;--lmc-ok:#4FBE86;--lmc-no:#F2708F}}
 .lmc-logo *,.lmc-logo *::before,.lmc-logo *::after{box-sizing:border-box}
+.lmc-logo:lang(zh){--lmc-display:"Geist","PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif;--lmc-body:"Inter","PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif}
+.lmc-logo:lang(ko){--lmc-display:"Geist","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;--lmc-body:"Inter","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;word-break:keep-all}
+.lmc-logo:lang(zh) .lmc-eyebrow,.lmc-logo:lang(ko) .lmc-eyebrow,.lmc-logo:lang(zh) th,.lmc-logo:lang(ko) th{letter-spacing:.04em}
 .lmc-logo .lmc-wrap{max-width:1040px;margin:0 auto;display:grid;gap:72px}
 body .lmc-logo h1,body .lmc-logo h2,body .lmc-logo h3{font-family:var(--lmc-display);color:var(--lmc-head);line-height:1.2;text-wrap:balance;margin:0;text-transform:none;letter-spacing:0;font-style:normal}
 body .lmc-logo h1{font-size:clamp(32px,6vw,48px);font-weight:700;color:var(--lmc-fg)}
@@ -90,7 +93,7 @@ body.dark-mode .lmc-logo .lmc-hero-mark .lmc-on-dark{display:block}
 .lmc-logo .lmc-foot{border-top:1px solid var(--lmc-soft);padding-top:24px;font-size:14px;color:var(--lmc-sec);display:grid;gap:6px}
 </style>
 
-<div class="lmc-logo" id="lmc-logo">
+<div class="lmc-logo" id="lmc-logo" lang="{{lang}}">
 <div class="lmc-wrap">
 
 <header class="lmc-hero">
